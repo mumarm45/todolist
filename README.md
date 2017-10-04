@@ -1,8 +1,9 @@
 # Todo list
-This is todo list application using, springboot,mongoDb and frontend is on using the angular4. 
+This is todo list application using, springboot,mongoDb and frontend is on using the angularjs(4). 
 
-#Executable file
-Download this jar file from this below link (https://github.com/mumarm45/todolist/blob/master/TodoList.jar) and go to the
+# Executable file
+
+Download jar file from link (https://github.com/mumarm45/todolist/blob/master/TodoList.jar) and go to the
 terminal/cmd 
  - java -jar TodoList.jar
 
