@@ -51,14 +51,14 @@ export class TaskComponent implements OnInit {
     dilog.afterClosed().subscribe(res => {
       console.log(res);
       if (res) {
-        this.taskService.remove(id).subscribe(res => {
+        this.taskService.remove(id).subscribe( res => {
           this.snackBar.open('Task has been deleted', null, {
             duration: 2000,
           });
           this.removeTaskFromList(id, isDone);
         });
       }
-    },(error)=>{
+    }, (error) => {
       this.snackBar.open('Error while adding new list', null, {
         duration: 2000,
       });
